@@ -68,7 +68,7 @@ def winner(board)
     else board[win_combination[0]] == "O" && board[win_combination[1]] == "O" && board[win_combination[2]] == "O"
       return "O"
     end
-   else
-     return nil
+  else
+    return nil
  end
 end
